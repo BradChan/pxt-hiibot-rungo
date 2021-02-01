@@ -1,7 +1,7 @@
 {
     "name": "pxt-hiibot-rungo",
     "version": "1.0.0",
-    "description": "",
+    "description": "HiiBot RunGo MakeCode Extensions For Micro:bit",
     "dependencies": {
         "core": "*",
         "radio": "*",
