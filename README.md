@@ -29,3 +29,37 @@
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+## Basic usage
+
+* Set the direction and speed of RunGo motor
+
+```blocks
+ rungo.motorRun(rungo.Motors.ML, rungo.Dir.CW, 50)
+ rungo.motorRun(rungo.Motors.MR, rungo.Dir.CCW, 50)
+```
+
+* Read RunGo ultrasonic sensor 
+
+```blocks
+basic.showNumber(rungo.Ultrasonic(PingUnit.Centimeters))
+```
+
+* Stop the RunGo motor 
+
+```blocks
+rungo.motorStop(rungo.Motors.ML)
+```
+
+* Read RunGo tracking sensor
+
+```blocks
+rungo.enablePatrol(rungo.PatrolEnable.PatrolOff)
+serial.writeNumber(rungo.readPatrol(rungo.Patrol.PatrolLeft))
+```
+
+* Turn on/off the Head LEDs
+
+```blocks
+rungo.writeLED(rungo.LED.LEDLeft, rungo.LEDswitch.turnOn)
+```
