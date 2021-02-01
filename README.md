@@ -30,6 +30,13 @@
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 
+# RunGo
+
+[RunGo is an easy-to-use STEAM educational Robot](https://www.ezaoyun.com/)
+
+[RunGo](https://item.taobao.com/item.htm?spm=a1z0k.7386009.1997989141.8.776517ddXi708q&id=636943605571&_u=q35uvk0s2523)
+
+
 ## Basic usage
 
 * Set the direction and speed of RunGo motor
