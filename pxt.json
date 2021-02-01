@@ -12,7 +12,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "rungo.ts"
+        "rungo.ts",
+        "_locales/zh-CN/README.md"
     ],
     "testFiles": [
         "test.ts"
