@@ -1,1 +1,7 @@
-// 在此处测试；当此软件包作为插件使用时，将不会编译此软件包。
+rungo.motorRun(rungo.Motors.MAll, rungo.Dir.CW, 50)
+basic.pause(1000)
+rungo.motorRun(rungo.Motors.MAll, rungo.Dir.CCW, 50)
+basic.pause(1000)
+rungo.motorStop(rungo.Motors.MAll)
+
+rungo.Ultrasonic(0)
